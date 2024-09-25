@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* Add some basic styling to the form */
+        form {
+          background-color: #f0f0f0; /* Light gray background */
+          padding: 20px; /* Add some padding to the form */
+          border: 1px solid #ccc; /* Add a light gray border */
+          border-radius: 10px; /* Add a rounded corner effect */
+        }
+      
+        /* Style the labels and inputs */
+        label {
+          display: block; /* Make labels display as blocks */
+          margin-bottom: 10px; /* Add some space between labels */
+          font-weight: bold; /* Make labels bold */
+          color: #333; /* Dark gray text color */
+        }
+      
+        input[type="text"], input[type="email"] {
+          width: 100%; /* Make inputs full-width */
+          height: 30px; /* Set input height */
+          margin-bottom: 20px; /* Add some space between inputs */
+          padding: 10px; /* Add some padding to inputs */
+          border: 1px solid #ccc; /* Add a light gray border */
+          border-radius: 5px; /* Add a rounded corner effect */
+        }
+      
+        input[type="submit"] {
+          background-color: #4CAF50; /* Green background color */
+          color: #fff; /* White text color */
+          padding: 10px 20px; /* Add some padding to the submit button */
+          border: none; /* Remove border */
+          border-radius: 5px; /* Add a rounded corner effect */
+          cursor: pointer; /* Change cursor to a pointing hand */
+        }
+      
+        input[type="submit"]:hover {
+          background-color: #3e8e41; /* Darker green background color on hover */
+        }
+      </style>
+      
+      <form>
+        <!-- Form elements go here -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
